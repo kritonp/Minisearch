@@ -1,13 +1,15 @@
 # Minisearch
 ## Description ##
 A simple search engine. Using [Trie](https://en.wikipedia.org/wiki/Trie). Score calculated with [BM25](https://en.wikipedia.org/wiki/Okapi_BM25).<br>
+Read & Store a text document to memory and search queries on it.<br>
+Example of document file: <br>
+0 The quick brown fox leaped over the lazy lazy dog  
+1 Quick brown foxes leaped over lazy dogs for fun  
+![Img](/TrieTree.PNG)<br>
 
 ## Compile & Run ##
 ```$ make```  
-```$ ./minisearch -i input_file.txt -k K```<br>
-eg: of input_file.txt  
-0 The quick brown fox leaped over the lazy lazy dog  
-1 Quick brown foxes leaped over lazy dogs for fun  
+```$ ./minisearch -i input_file.txt -k K```<br> 
 
 ## Commands ##
 ```/search q1 q2 ... q10```  
